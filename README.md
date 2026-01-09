@@ -45,7 +45,7 @@ Le code source est disponible pour référence éducative.
 ### Regarder la démo (cmd + click)
 *Processus complet : Accueil → Jeu → Victoire → Recommencer*
 
-<a href="https://rajbhanif.github.io/tic-tac-toe-kotlin/gameplay-demo.mp4" target="_blank">▶ Cliquez ici pour ouvrir la vidéo de démo</a>
+<a href="https://rajbhanif.github.io/tic-tac-toe/tic-tac-toe.mp4" target="_blank">▶ Cliquez ici pour ouvrir la vidéo de démo</a>
 
 *La vidéo s'ouvrira directement dans votre navigateur*
 
