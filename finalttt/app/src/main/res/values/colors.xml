@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="purple_500">#800080</color>
+    <color name="light_purple">#D8BFD8</color> <!-- Light purple for winning line -->
+</resources>

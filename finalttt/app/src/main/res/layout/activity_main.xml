@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gameStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Player X's Turn"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+   <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:padding="2dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <ImageButton
+                android:id="@+id/button00"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button01"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button02"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+            <ImageButton
+                android:id="@+id/button22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/square_purple"
+                android:scaleType="center"
+                android:onClick="onButtonClick" />
+
+        </GridLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/restartGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:onClick="restartGame"
+        android:text="Recommencer le jeu"
+        android:backgroundTint="#800080"
+        android:textColor="#FFFFFF"
+        android:visibility="visible" />
+
+</LinearLayout>
