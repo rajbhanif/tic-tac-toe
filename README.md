@@ -49,6 +49,6 @@ Le code source est disponible pour référence éducative.
 
 *La vidéo s'ouvrira directement dans votre navigateur*
 
-## Auteur
+## Autrice
 **Raj Beghum Hanif**  
 Projet académique - Développement d'applications Android
